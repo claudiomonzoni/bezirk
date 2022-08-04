@@ -1,7 +1,4 @@
-5426
-57C:\Users\OTTO\Desktop\landing\web\node_modules\domhandler133040605012451202 1
-96C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\css-scroll-timeline.js133040592868740000 0
-88C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\shadowdomv1.js133040592868740000 0
+5429
 97C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133040592802800000 0
 61C:\Users\OTTO\Desktop\landing\web\node_modules\domelementtype133040605012441173 1
 59C:\Users\OTTO\Desktop\landing\web\node_modules\terser\tools133040605023907787 1
@@ -13,7 +10,7 @@
 58C:\Users\OTTO\Desktop\landing\web\node_modules\safe-buffer133040605016490999 1
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\MX.js133040592868740000 0
 85C:\Users\OTTO\Desktop\landing\web\node_modules\svgo\plugins\addClassesToSVGElement.js133040592879200000 0
-46C:\Users\OTTO\Desktop\landing\web\package.json133040608125437669 0
+46C:\Users\OTTO\Desktop\landing\web\package.json133040633135166332 0
 90C:\Users\OTTO\Desktop\landing\web\node_modules\coffee-script\lib\coffee-script\optparse.js133040592794380000 0
 64C:\Users\OTTO\Desktop\landing\web\node_modules\type-fest\license132920483656170000 0
 56C:\Users\OTTO\Desktop\landing\web\node_modules\commander133040605012349394 1
@@ -47,9 +44,18 @@
 63C:\Users\OTTO\Desktop\landing\web\node_modules\msgpackr\pack.js133040592817910000 0
 60C:\Users\OTTO\Desktop\landing\web\node_modules\ms\license.md132920483689140000 0
 68C:\Users\OTTO\Desktop\landing\web\node_modules\gsap\types\tween.d.ts133040592791780000 0
-38C:\Users\OTTO\Desktop\landing\web\dist133040608649756570 1
+38C:\Users\OTTO\Desktop\landing\web\dist133040633426801682 1
 71C:\Users\OTTO\Desktop\landing\web\node_modules\postcss-value-parser\lib133040605023272813 1
 81C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\opus.js133040592868740000 0
+85C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\fontface.js133040592868740000 0
+44C:\Users\OTTO\Desktop\landing\web\style.scss133040590126053902 0
+72C:\Users\OTTO\Desktop\landing\web\node_modules\mkdirp\test\umask_sync.js133040592794190000 0
+67C:\Users\OTTO\Desktop\landing\web\node_modules\term-size\index.d.ts133040592814780000 0
+53C:\Users\OTTO\Desktop\landing\web\node_modules\@types133040605005627152 1
+78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\LV.js133040592868740000 0
+71C:\Users\OTTO\Desktop\landing\web\node_modules\xxhash-wasm\package.json133040592843230000 0
+64C:\Users\OTTO\Desktop\landing\web\node_modules\react-refresh\cjs133040605023342476 1
+37C:\Users\OTTO\Desktop\landing\web\img133040611402263010 1
 91C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\optimizer-htmlnano\node_modules\.bin133040605266965447 1
 36C:\Users\OTTO\Desktop\landing\web\js133040605504003923 1
 60C:\Users\OTTO\Desktop\landing\web\node_modules\color-convert133040605012011787 1
@@ -73,7 +79,7 @@
 64C:\Users\OTTO\Desktop\landing\web\node_modules\send\lib\utils.js133040592797100000 0
 76C:\Users\OTTO\Desktop\landing\web\node_modules\terser\node_modules\commander133040605017397971 1
 69C:\Users\OTTO\Desktop\landing\web\node_modules\picomatch\CHANGELOG.md132937730366610000 0
-44C:\Users\OTTO\Desktop\landing\web\index.html133040590125187426 0
+44C:\Users\OTTO\Desktop\landing\web\index.html133040631026742968 0
 71C:\Users\OTTO\Desktop\landing\web\node_modules\to-regex-range\README.md132920483588450000 0
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\PM.js133040592868740000 0
 72C:\Users\OTTO\Desktop\landing\web\node_modules\csso\lib\replace\index.js132972661671120000 0
@@ -85,8 +91,6 @@
 67C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\workers\test133040605021725257 1
 38C:\Users\OTTO\Desktop\landing\web\sass133040590224627915 1
 92C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\urlsearchparams.js133040592868740000 0
-85C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\fontface.js133040592868740000 0
-44C:\Users\OTTO\Desktop\landing\web\style.scss133040590126053902 0
 81C:\Users\OTTO\Desktop\landing\web\node_modules\type-fest\source\partial-deep.d.ts132920483656170000 0
 43C:\Users\OTTO\Desktop\landing\web\yarn.lock133040605272245861 0
 52C:\Users\OTTO\Desktop\landing\web\node_modules\debug133040605012763654 1
@@ -158,7 +162,6 @@
 53C:\Users\OTTO\Desktop\landing\web\node_modules\base-x133040605011691680 1
 81C:\Users\OTTO\Desktop\landing\web\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map133040592843230000 0
 51C:\Users\OTTO\Desktop\landing\web\node_modules\mime133040605015589469 1
-63C:\Users\OTTO\Desktop\landing\web\node_modules\svgo\lib\svgo.js133040592879200000 0
 53C:\Users\OTTO\Desktop\landing\web\node_modules\@lezer133040605006007244 1
 84C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\utils\test\DefaultMap.test.js133040592806900000 0
 92C:\Users\OTTO\Desktop\landing\web\node_modules\css-select\lib\pseudo-selectors\subselects.js132940364729550000 0
@@ -193,12 +196,6 @@
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\MV.js133040592868740000 0
 71C:\Users\OTTO\Desktop\landing\web\node_modules\nth-check\lib\compile.js133040592988030000 0
 87C:\Users\OTTO\Desktop\landing\web\node_modules\utility-types\dist\functional-helpers.js133040592815150000 0
-72C:\Users\OTTO\Desktop\landing\web\node_modules\mkdirp\test\umask_sync.js133040592794190000 0
-67C:\Users\OTTO\Desktop\landing\web\node_modules\term-size\index.d.ts133040592814780000 0
-53C:\Users\OTTO\Desktop\landing\web\node_modules\@types133040605005627152 1
-78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\LV.js133040592868740000 0
-71C:\Users\OTTO\Desktop\landing\web\node_modules\xxhash-wasm\package.json133040592843230000 0
-64C:\Users\OTTO\Desktop\landing\web\node_modules\react-refresh\cjs133040605023342476 1
 70C:\Users\OTTO\Desktop\landing\web\node_modules\nullthrows\package.json133040592814540000 0
 79C:\Users\OTTO\Desktop\landing\web\node_modules\formidable\test\legacy\common.js133040592799900000 0
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\MZ.js133040592868740000 0
@@ -329,6 +326,9 @@
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\SB.js133040592868740000 0
 82C:\Users\OTTO\Desktop\landing\web\node_modules\update-browserslist-db\package.json133040592850920000 0
 74C:\Users\OTTO\Desktop\landing\web\node_modules\react-error-overlay\LICENSE133040592882540000 0
+57C:\Users\OTTO\Desktop\landing\web\node_modules\domhandler133040605012451202 1
+96C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\css-scroll-timeline.js133040592868740000 0
+88C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\shadowdomv1.js133040592868740000 0
 61C:\Users\OTTO\Desktop\landing\web\node_modules\mime\README.md133040592798010000 0
 55C:\Users\OTTO\Desktop\landing\web\node_modules\domutils133040605012461249 1
 69C:\Users\OTTO\Desktop\landing\web\node_modules\entities\lib\generated133040605029689164 1
@@ -643,7 +643,7 @@
 92C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\media-fragments.js133040592868740000 0
 70C:\Users\OTTO\Desktop\landing\web\node_modules\posthtml-render\license133040592888810000 0
 56C:\Users\OTTO\Desktop\landing\web\node_modules\term-size133040605016757193 1
-60C:\Users\OTTO\Desktop\landing\web\dist\index.100315d7.js.map133040608649736536 0
+60C:\Users\OTTO\Desktop\landing\web\dist\index.100315d7.js.map133040633426801682 0
 68C:\Users\OTTO\Desktop\landing\web\node_modules\is-json\test\index.js133040592981760000 0
 88C:\Users\OTTO\Desktop\landing\web\node_modules\@glidejs\glide\src\components\keyboard.js133040076322500000 0
 73C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\diagnostic\LICENSE133040592806170000 0
@@ -1107,9 +1107,6 @@
 68C:\Users\OTTO\Desktop\landing\web\node_modules\browserslist\parse.js133040592810940000 0
 97C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\utils\test\replaceBundleReferences.test.js133040592806900000 0
 79C:\Users\OTTO\Desktop\landing\web\node_modules\type-fest\source\promisable.d.ts132920483656170000 0
-101C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\custom-targets\package.json133040592802800000 0
-69C:\Users\OTTO\Desktop\landing\web\node_modules\mdn-data\l10n\index.js132972661683110000 0
-71C:\Users\OTTO\Desktop\landing\web\node_modules\lmdb\src\compression.cpp133040592856370000 0
 82C:\Users\OTTO\Desktop\landing\web\node_modules\type-fest\source\promise-value.d.ts132920483656170000 0
 64C:\Users\OTTO\Desktop\landing\web\node_modules\@types\parse-json133040605011540994 1
 70C:\Users\OTTO\Desktop\landing\web\node_modules\csso\lib\replace\Url.js132972661671120000 0
@@ -1426,6 +1423,7 @@
 94C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\package-manager\src\NodeResolverSync.js133040592802400000 0
 66C:\Users\OTTO\Desktop\landing\web\node_modules\ordered-binary\dist133040605023202695 1
 94C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\createimagebitmap.js133040592868740000 0
+63C:\Users\OTTO\Desktop\landing\web\node_modules\svgo\lib\svgo.js133040592879200000 0
 81C:\Users\OTTO\Desktop\landing\web\node_modules\lmdb\dependencies\lz4\lib\xxhash.c133040592856370000 0
 79C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-js\native.js133040592829490000 0
 77C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\lib\AssetGraph.js133040592802800000 0
@@ -1496,6 +1494,7 @@
 87C:\Users\OTTO\Desktop\landing\web\node_modules\source-map-support\source-map-support.js132940364741230000 0
 69C:\Users\OTTO\Desktop\landing\web\node_modules\escalade\dist\index.js132920483494060000 0
 53C:\Users\OTTO\Desktop\landing\web\node_modules\qs\lib133040605023324025 1
+57C:\Users\OTTO\Desktop\landing\web\img\bezirk-facebook.svg133040579438513843 0
 80C:\Users\OTTO\Desktop\landing\web\node_modules\electron-to-chromium\package.json133040592943090000 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\entities\lib\encode.d.ts.map132937729849230000 0
 68C:\Users\OTTO\Desktop\landing\web\node_modules\source-map-js\LICENSE132920483617960000 0
@@ -1883,7 +1882,6 @@
 68C:\Users\OTTO\Desktop\landing\web\node_modules\boolbase\package.json132940364764160000 0
 81C:\Users\OTTO\Desktop\landing\web\node_modules\gsap\dist\ScrollTrigger.min.js.map133040592791780000 0
 70C:\Users\OTTO\Desktop\landing\web\node_modules\braces\lib\constants.js132920483501150000 0
-56C:\Users\OTTO\Desktop\landing\web\dist\index.a8f04b30.js133040606733139378 0
 86C:\Users\OTTO\Desktop\landing\web\node_modules\css-tree\lib\syntax\atrule\font-face.js132972661671990000 0
 76C:\Users\OTTO\Desktop\landing\web\node_modules\parcel\node_modules\commander133040605017289793 1
 102C:\Users\OTTO\Desktop\landing\web\node_modules\lmdb\node_modules\node-addon-api\tools\eslint-format.js133040592895550000 0
@@ -2138,6 +2136,9 @@
 56C:\Users\OTTO\Desktop\landing\web\node_modules\.bin\jade133040605271330839 0
 91C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-postcss\lib\constants.js133040592837610000 0
 65C:\Users\OTTO\Desktop\landing\web\node_modules\mdn-data\README.md132972661683110000 0
+101C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\custom-targets\package.json133040592802800000 0
+69C:\Users\OTTO\Desktop\landing\web\node_modules\mdn-data\l10n\index.js132972661683110000 0
+71C:\Users\OTTO\Desktop\landing\web\node_modules\lmdb\src\compression.cpp133040592856370000 0
 73C:\Users\OTTO\Desktop\landing\web\node_modules\mdn-data\css\at-rules.json132972661683110000 0
 91C:\Users\OTTO\Desktop\landing\web\node_modules\@glidejs\glide\src\components\breakpoints.js133040076322500000 0
 87C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\watcher\src\windows\win_utils.hh133040592838910000 0
@@ -2460,9 +2461,9 @@
 98C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\fs-search\node_modules\.bin\detect-libc.cmd133040605266482780 0
 82C:\Users\OTTO\Desktop\landing\web\node_modules\jade\node_modules\mkdirp\.npmignore133040592794140000 0
 66C:\Users\OTTO\Desktop\landing\web\node_modules\css-tree\lib\common133040605029293193 1
-87C:\Users\OTTO\Desktop\landing\web\node_modules\css-tree\lib\syntax\pseudo\common\nth.js132972661671990000 0
-83C:\Users\OTTO\Desktop\landing\web\node_modules\jade\node_modules\mkdirp\.travis.yml133040592794140000 0
 64C:\Users\OTTO\Desktop\landing\web\node_modules\is-json\README.md133040592981760000 0
+83C:\Users\OTTO\Desktop\landing\web\node_modules\jade\node_modules\mkdirp\.travis.yml133040592794140000 0
+87C:\Users\OTTO\Desktop\landing\web\node_modules\css-tree\lib\syntax\pseudo\common\nth.js132972661671990000 0
 80C:\Users\OTTO\Desktop\landing\web\node_modules\jade\node_modules\mkdirp\examples133040605024521877 1
 102C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-posthtml\lib\PostHTMLTransformer.js133040592834590000 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\@lezer\common\dist\tree.d.ts133040592816180000 0
@@ -2651,6 +2652,7 @@
 66C:\Users\OTTO\Desktop\landing\web\node_modules\cookie\package.json133040592796440000 0
 83C:\Users\OTTO\Desktop\landing\web\node_modules\@swc\helpers\lib\_to_property_key.js133040592891220000 0
 85C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\wai-aria.js133040592868740000 0
+60C:\Users\OTTO\Desktop\landing\web\img\landing page bezirk.ai133040572514108124 0
 78C:\Users\OTTO\Desktop\landing\web\node_modules\connect\lib\middleware\query.js133040592797980000 0
 64C:\Users\OTTO\Desktop\landing\web\node_modules\htmlnano\index.js133040592859440000 0
 69C:\Users\OTTO\Desktop\landing\web\node_modules\gsap\src\TextPlugin.js133040592791780000 0
@@ -2669,7 +2671,6 @@
 74C:\Users\OTTO\Desktop\landing\web\node_modules\htmlnano\lib\presets\max.js133040592859440000 0
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\CO.js133040592868740000 0
 89C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\features\setimmediate.js133040592868740000 0
-57C:\Users\OTTO\Desktop\landing\web\dist\index.8353e49f.css133040606732492890 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\htmlnano\lib\presets\safe.js133040592859440000 0
 80C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\lib\public\Target.js133040592802800000 0
 98C:\Users\OTTO\Desktop\landing\web\node_modules\htmlnano\lib\modules\collapseAttributeWhitespace.js133040592859440000 0
@@ -3294,7 +3295,6 @@
 71C:\Users\OTTO\Desktop\landing\web\node_modules\css-tree\data\patch.json132972661671990000 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\css-select\lib\sort.d.ts.map132940364729550000 0
 67C:\Users\OTTO\Desktop\landing\web\node_modules\css-select\README.md132940364729550000 0
-96C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-image\src\ImageTransformer.js133040592881500000 0
 77C:\Users\OTTO\Desktop\landing\web\node_modules\css-select\lib\attributes.d.ts132940364729550000 0
 78C:\Users\OTTO\Desktop\landing\web\node_modules\caniuse-lite\data\regions\BR.js133040592868740000 0
 74C:\Users\OTTO\Desktop\landing\web\node_modules\css-select\lib\compile.d.ts132940364729550000 0
@@ -4478,6 +4478,7 @@
 78C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\workers\lib\cpuCount.js133040592816960000 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\workers\lib\index.js133040592816960000 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\workers\lib\types.js133040592816960000 0
+53C:\Users\OTTO\Desktop\landing\web\img\bezirk-logo.svg133040578783327297 0
 80C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\workers\lib\WorkerFarm.js133040592816960000 0
 74C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\watcher\binding.gyp133040592838910000 0
 75C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\watcher\package.json133040592838910000 0
@@ -4585,7 +4586,7 @@
 94C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-posthtml\lib\loadPlugins.js133040592834590000 0
 87C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-postcss\node_modules133040605268867857 1
 78C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-postcss\src133040605021469168 1
-56C:\Users\OTTO\Desktop\landing\web\dist\index.100315d7.js133040608649618344 0
+56C:\Users\OTTO\Desktop\landing\web\dist\index.100315d7.js133040633426681792 0
 91C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-postcss\src\constants.js133040592837610000 0
 92C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-postcss\lib\loadConfig.js133040592837610000 0
 79C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\packager-js\lib\utils.js133040592832600000 0
@@ -4603,6 +4604,7 @@
 70C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\src\public133040605030134547 1
 87C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-js\lib\loadNative.js133040592829490000 0
 80C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-image\LICENSE133040592881500000 0
+96C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-image\src\ImageTransformer.js133040592881500000 0
 89C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-image\src\loadSharp.js133040592881500000 0
 81C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\events\lib\ValueEmitter.js133040592803310000 0
 94C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\transformer-image\src\validateConfig.js133040592881500000 0
@@ -4785,6 +4787,7 @@
 79C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\packager-js\src\utils.js133040592832600000 0
 72C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\css\node\index.js133040592856240000 0
 89C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\packager-js\lib\CJSOutputFormat.js133040592832600000 0
+56C:\Users\OTTO\Desktop\landing\web\img\bezirk-twitter.svg133040579155531213 0
 85C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\packager-js\lib\dev-prelude.js133040592832600000 0
 126C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\package.json133040592897930000 0
 85C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\packager-js\lib\DevPackager.js133040592832600000 0
@@ -5104,7 +5107,7 @@
 133C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\index.js133040592802800000 0
 137C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\package.json133040592802800000 0
 89C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\parcel\index.js133040592802800000 0
-49C:\Users\OTTO\Desktop\landing\web\dist\index.html133040608649618344 0
+49C:\Users\OTTO\Desktop\landing\web\dist\index.html133040633426671697 0
 93C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\parcel\package.json133040592802800000 0
 98C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\main-global\package.json133040592802800000 0
 105C:\Users\OTTO\Desktop\landing\web\node_modules\@parcel\core\test\fixtures\library-scopehoist\package.json133040592802800000 0
@@ -5421,7 +5424,7 @@
 62C:\Users\OTTO\Desktop\landing\web\node_modules\.bin\semver.cmd133040605271696197 0
 56C:\Users\OTTO\Desktop\landing\web\node_modules\.bin\svgo133040605271744918 0
 60C:\Users\OTTO\Desktop\landing\web\node_modules\.bin\svgo.cmd133040605271744918 0
-61C:\Users\OTTO\Desktop\landing\web\dist\index.8353e49f.css.map133040606732570823 0
-60C:\Users\OTTO\Desktop\landing\web\dist\index.a8f04b30.js.map133040606733211238 0
-57C:\Users\OTTO\Desktop\landing\web\dist\index.b7a25c4d.css133040608649608335 0
-61C:\Users\OTTO\Desktop\landing\web\dist\index.b7a25c4d.css.map133040608649736536 0
+51C:\Users\OTTO\Desktop\landing\web\img\bezirk-bg.svg133040583137894632 0
+63C:\Users\OTTO\Desktop\landing\web\dist\bezirk-logo.f2da104e.svg133040633411116519 0
+57C:\Users\OTTO\Desktop\landing\web\dist\index.b7a25c4d.css133040633426671697 0
+61C:\Users\OTTO\Desktop\landing\web\dist\index.b7a25c4d.css.map133040633426791675 0
