@@ -1,60 +1,57 @@
 
-//only phones
-var x = window.matchMedia("(max-width: 479px)");
-esCell(x); // Call listener function at run time
-x.addListener(esCell); // Attach listener function on state changes
+// // importo gsap
+// import gsap from 'gsap'
+// gsap.from(".logo",
+// {
+//   stagger:0.1,
+//   x:400,
+//   opacity: 0,
+//   duration: 1 //1 segundo
+// })
 
-// nav
+  window.$ = require('jquery');
 
-function esCell(x) {
-  if (x.matches) {
-    // If media query matches
-    const menuIco = document.querySelector(".menu-toggle");
-    const mainNav = document.querySelector("#nav");
-    // const anchor = document.querySelector(".anchor");
-    const abierto = false;
+$(document).ready(function () {
 
-    function abrirMenuFull () {
-      this.abierto = !this.abierto;
-      console.log(abierto)
-      mainNav.classList.remove("menuFullAbierto");
-      mainNav.classList.remove("desanimaMenu");
-      menuIco.classList.toggle("is-active");
+$("#contactoBtn").click(function (e) {
 
-      this.abierto
-        ? mainNav.classList.toggle("menuFullAbierto")
-        : mainNav.classList.toggle("desanimaMenu");
-    };
+  var nombre = $("#nombre").val();
+    var apellido = $("#apellido").val();
+    var email = $("#email").val();
+    // var tel = $("#tel").val();
+    var curso = $("#cursos").val();
+    var edo = $("#edo").val();
+    var ciudad = $("#ciudad").val();
 
-    menuIco.addEventListener("click", abrirMenuFull);
-    //anchor.addEventListener("click", abrirMenuFull);
-  } else {
-    return;
-  }
-}
+    $("#msj").empty(); // To empty previous error/success message.
+    // Checking for blank fields.
 
-// // insertar iconos de redes sociales 
-// import Icono, {face, insta} from './iconos'
-// const faceicono = new Icono("http://facebook.com", "#social", face)
-// faceicono.construirIcono()
-// const instaIcono = new Icono("http://instagram.com", "#social", insta)
-// instaIcono.construirIcono()
+    if (nombre == "" || apellido == "" || curso == "" ||  email == "") {
+      alert("Por favor llena los campos marcados con * al final");
+    } else {
+      
 
-//importo el carrusel
-import {slideIndex} from './glide'
-slideIndex()
+      $.post(
+        "contacto.php",
+        {
+          nombre1: nombre, apellido1: apellido, email1: email,  curso1: curso, edo1: edo, ciudad1: ciudad
+        },
+        function (data) {
+          $("#msj").append(data); // Append returned message to message paragraph.
+          if (
+            data ==
+            "Gracias, pronto un asesor se pondra en contacto contigo 😎"
+          ) {
+            $("#formu").reset(); // To reset form fields on success.
+          }
+        }
+      );
+    }
 
-// importo gsap
-import gsap from 'gsap'
-gsap.from(".logo, ul>li",
-{
-  stagger:0.1,
-  x:400,
-  opacity: 0,
-  duration: 1 //1 segundo
+    e.preventDefault();
+  });
+
 })
-
-
 // cargar modulos solo por secciones
 // switch (document.location.pathname)
 // {

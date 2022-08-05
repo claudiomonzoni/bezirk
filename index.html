@@ -1,78 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cambiar el titulo segun proyecto</title>
-    <link rel="stylesheet" href="style.scss">
-</head>
-<body>
-  <div id="cuerpo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bezirk | Regresa a nuestros cursos</title>
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body>
+    <div id="cuerpo">
+      <nav id="nav">
+        <div class="logo">
+          <img src="img/bezirk-logo.svg" alt="" />
+        </div>
+      </nav>
 
+      <section>
+        <div class="conte">
+          <div id="izq">
+            <h1>Regresa a nuestros cursos</h1>
+          </div>
+          <div id="der">
+            <div id="formu">
+              <h3>
+                Continua tu sueño de aprender alemán y obten un
+                <b>20% de descuento</b>
+              </h3>
+              <input
+                type="text"
+                name="Nombre"
+                id="nombre"
+                required
+                placeholder="Nombre*"
+              />
+              <input
+                type="text"
+                name="Apellido"
+                id="apellido"
+                required
+                placeholder="Apellidos*"
+              />
+              <input
+                type="text"
+                name="Cursos"
+                required
+                id="cursos"
+                placeholder="Curso de mi interés*"
+              />
+              <select name="Estado" id="edo" placeholder="Estado">
+                <option value="no" selected="selected">Estado</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="CDMX">Ciudad de México</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="Durango">Durango</option>
+                <option value="Estado de México">Estado de México</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="Nuevo León">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="Quintana Roo">Quintana Roo</option>
+                <option value="San Luis Potosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+              </select>
+              <input
+                type="text"
+                name="Ciudad"
+                id="ciudad"
+                placeholder="Ciudad"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="Email*"
+              />
+              <a href="#" id="contactoBtn">Quiero me contacte un asesor</a>
+              <div id="msj">
+              </div>
+            </div>
+          </div>
 
-<nav id="nav">
-    <button class="menu-toggle">Menu</button>
-    <div class="logo">
-        <img src="img/bezirk-logo.svg" alt="">
-    </div>
-    <ul>
-        <li><a href="#">item 1</a></li>
-        <li><a href="#">item 2</a></li>
-        <li><a href="#">item 3</a></li>
-        <li><a href="#">item 4</a></li>
-    </ul>
-    <ul id="social">
-        
-    </ul>
-</nav>
-
-<section >
-  <div class="conte">
-
-    <div class="glide">
-        <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li class="glide__slide">  
-              <img src="https://via.placeholder.com/1920x1080" alt="">
+          <div id="social">
+            <h4>Siguenos</h4>
+      <div id="redes">
+        <a href="#" target="_blank"
+        ><img src="img/bezirk-twitter.svg" alt="Bezirk Twitter"
+      /></a>
+      <a href="https://www.facebook.com/BezirkGDL/" target="_blank"
+        ><img src="img/bezirk-facebook.svg" alt="Bezirk Facebook"
+      /></a>
+      </div>
+       
+          <ul>
+            <li>
+              <a href="mailto:info@bezirk.com" target="_blank">
+                info@bezirk.com</a
+              >
             </li>
-            <li class="glide__slide">  
-              <img src="https://via.placeholder.com/1920x1080" alt="">
+            <li>
+              <a href="tel:+013336169721">Tel.(0133) 3616.9721</a>
             </li>
-            <li class="glide__slide">  
-              <img src="https://via.placeholder.com/1920x1080" alt="">
+            <li>
+              <address>
+                <a
+                  href="https://www.google.com.mx/maps/place/Av.+de+la+Paz+2629,+Arcos+Vallarta,+44130+Guadalajara,+Jal./@20.6720022,-103.3855499,17z/data=!4m13!1m7!3m6!1s0x8428ae72dde3e891:0x714800281e5786bc!2sAv.+de+la+Paz+2629,+Arcos+Vallarta,+44130+Guadalajara,+Jal.!3b1!8m2!3d20.6720022!4d-103.3833612!3m4!1s0x8428ae72dde3e891:0x714800281e5786bc!8m2!3d20.6720022!4d-103.3833612"
+                  target="_blank"
+                >
+                  Av. La Paz 2629, Colonia Arcos Vallarta
+                </a>
+              </address>
             </li>
           </ul>
         </div>
-
-        <div data-glide-el="controls">
-          <button data-glide-dir="<">atras</button>
-          <button data-glide-dir=">">adelante</button>
         </div>
-
-    
-          <div class="glide__bullets" data-glide-el="controls[nav]">
-            <button class="glide__bullet" data-glide-dir="=0">1</button>
-            <button class="glide__bullet" data-glide-dir="=1">2</button>
-            <button class="glide__bullet" data-glide-dir="=2">3</button>
-          </div>
-   
-  </div>
-
-      </div>
-
-      
-</section>
-<section>
-  <div class="conte">
-    <h1>Que onda</h1>
-    <p style="height: 100vh;">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsa voluptas consectetur? Tenetur eius, aliquam error exercitationem fugiat asperiores quis explicabo deserunt totam, quidem, ipsa veritatis animi assumenda nisi odit! Blanditiis asperiores impedit atque voluptatum voluptas odit quae perferendis, error architecto, illum dolorem voluptatem magni explicabo, iusto iste dolore ut? Ut officia at, et culpa error quidem. In corporis illum quod? Laudantium, error praesentium! Sit repellat nemo a ut eaque illum similique aperiam sint corporis commodi eligendi dolores omnis quo asperiores dicta optio vitae minus ipsa, architecto nulla in non? Harum omnis eos et pariatur placeat ullam optio aliquam quae excepturi reiciendis architecto ea quasi, corporis minus sapiente rerum! Voluptatibus officia, quos commodi saepe distinctio ut in! Magnam officia laboriosam cumque corrupti veniam! Quas repellat ab doloribus laboriosam tempora provident, eaque officia? Error mollitia voluptatum neque quaerat. Modi fugiat consequatur inventore expedita accusantium! Esse quasi ad minima neque ullam pariatur, nam assumenda atque, officiis delectus debitis dolore corporis quidem nulla a voluptas. Officia vel et dolorum eum nostrum voluptatibus perferendis. Ipsum quas iste nemo vero error optio, consequatur incidunt beatae consectetur doloremque dolor id! Deserunt laboriosam cupiditate incidunt officiis omnis doloribus atque animi voluptatibus dolor, odit nesciunt, officia eaque magni.
-    </p>
-  </div>
-</section>
- </div> 
- <!-- fin cuerpo -->
-</body>
-<script type="module" src="js/app.js"></script>
+      </section>
+    </div>
+    <!-- fin cuerpo -->
+  </body>
+  <script type="module" src="js/app.js"></script>
 </html>

@@ -17,6 +17,7 @@
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "gsap": "^3.6.0",
+    "jquery": "^3.6.0",
     "mm": "^3.2.0",
     "modulo": "0.0.3"
   }

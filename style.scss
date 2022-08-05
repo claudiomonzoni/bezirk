@@ -1,17 +1,26 @@
-@use 'sass/forward' as *;
+@use "sass/forward" as *;
 
 // estilos del carrusel
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 // fuentes
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;800&display=swap");
 
 html {
-  background-color: $gris;
+  background: url(img/bezirk-bg.svg), url(img/bezirk-bg-2.svg) $negro;
+  background-repeat: no-repeat;
+  background-size: 60%, 40%;
+  background-position: -20% 0%, -20% 160%;
+  @include cel {
+    background-size: 130%, 80%;
+    background-position: -10% 10%, 0% 100%;
+  }
 }
 
 body {
-  font-family: Montserrat;
+  font-family: Raleway;
   position: relative;
+  color: #fff;
+font-size: clamp(1rem, 2vw, 4rem);;
 }
 
 .minmax {
@@ -21,9 +30,132 @@ body {
 }
 
 .conte {
-  max-width: 1600px;
-  margin: 0 auto;
-  @media screen and (max-width: 1600px) {
-    padding: 0 10vw;
+  width: min(100% - 5rem, 145rem);
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  @include cel {
+    width: min(100% - 2rem, 145rem);
+    #izq,
+    #der {
+      flex: 1 0 auto;
+      width: 100% !important;
+      text-align: center;
+      height: auto!important;
+    }
+  }
+  #izq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 30%;
+    h1 {
+      font-size: clamp(3rem, 5vw, 10vw);
+      line-height: 1em;
+      @include cel{
+        padding-top: 2rem;
+      }
+    }
+  }
+  #der {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 60%;
+    height: 65vh;
+    #formu {
+      h3 {
+        padding: 2rem 0;
+      }
+      display: flex;
+      flex-wrap: wrap;
+      width: min(100% - 5rem, 50rem);
+      margin-inline: auto;
+      input,
+      select {
+        border: solid 1.5px $naranja;
+        color: $gris;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        margin: 0.3rem;
+        width: 48%;
+        @include cel {
+          width: 100%;
+        }
+        box-sizing: border-box;
+      }
+      #cursos {
+        width: 97.4%;
+      }
+      #contactoBtn {
+        display: block;
+        padding: 0.5rem;
+        margin: 0.3rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: $verde;
+        color: #fff;
+        border: none;
+        width: 60%;
+        font-size: 1.4rem;
+        &:hover {
+          
+          background-color: $naranja;
+          color: $negro;
+        }
+        @include cel {
+          width: 100%;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
+
+
+
+#social {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  @include cel {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  flex: 1 1 100%;
+  h4 {
+    padding: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+  img {
+    width: 3rem;
+    padding: 0.5rem;
+  }
+  li {
+    padding-bottom: 0.3rem;
+    a {
+      color: #fff;
+      text-decoration: underline;
+      text-decoration-color: $amarillo;
+    }
+    address {
+      font-style: normal;
+      padding-bottom: 2rem;
+      a {
+        text-decoration: none !important;
+      }
+    }
+  }
+}
+#msj{
+  flex: 1 1 100%;
+  color: $naranja;
+  border-top: solid 1px $gris;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-size: 1.4rem;
 }
