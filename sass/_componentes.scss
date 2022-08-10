@@ -8,7 +8,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  position:fixed;
+ 
   width: 100%;
   z-index: 900;
   .logo {
@@ -16,6 +16,7 @@ nav {
     padding: 2rem;
     @include cel{
       flex: 1 0 30%;
+     
     }
     @include tableta{
       flex: 0 1 50%;
@@ -29,12 +30,12 @@ nav {
 
 // agregamos padding a todo lo que este debajo de nav
 
-nav + section{
-  padding-top: 10%;
-  @include cel{
-    padding-top: 35%;
-  }
-  @include tableta{
-    padding-top: 17%;
-  }
-}
+// nav + section{
+//   padding-top: 9%;
+//   @include cel{
+//     padding-top: 33%;
+//   }
+//   @include tableta{
+//     padding-top: 17%;
+//   }
+// }

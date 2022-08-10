@@ -6,13 +6,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;800&display=swap");
 
 html {
-  background: url(img/bezirk-bg.svg), url(img/bezirk-bg-2.svg) $negro;
+  background: url(img/bezirk-bg-3.svg), url(img/bezirk-bg-2.svg) #FF1D29;
   background-repeat: no-repeat;
-  background-size: 60%, 40%;
-  background-position: -20% 0%, -20% 160%;
+  background-size: 70%, 30%;
+  background-position: 120% 80%, 0% 120%;
+  // background: url(img/bezirk-bg.svg), url(img/bezirk-bg-2.svg) $negro;
+  // background-repeat: no-repeat;
+  // background-size: 60%, 40%;
+  // background-position: -20% 0%, -20% 160%;
+  overflow-x: hidden;
   @include cel {
-    background-size: 130%, 80%;
-    background-position: -10% 10%, 0% 100%;
+    background-size:  100%, 70%;
+  background-position: 0% 100%, 0% 50%;
   }
 }
 
@@ -30,13 +35,22 @@ font-size: clamp(1rem, 2vw, 4rem);;
 }
 
 .conte {
-  width: min(100% - 5rem, 145rem);
+  width: min(100%, 145rem);
+  padding: 0 5rem;
   margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
   min-height: 80vh;
+  background: url(img/bezirk-bg.svg) ;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 0% -35%;
   @include cel {
-    width: min(100% - 2rem, 145rem);
+    background-size: 100%;
+    background-position: 0% -10%;
+
+    width: min(100%, 145rem);
+    padding: 0 1rem;
     #izq,
     #der {
       flex: 1 0 auto;
@@ -120,6 +134,7 @@ font-size: clamp(1rem, 2vw, 4rem);;
 #social {
   display: flex;
   flex-direction: column;
+
   font-size: 0.8rem;
   @include cel {
     text-align: center;
@@ -153,7 +168,7 @@ font-size: clamp(1rem, 2vw, 4rem);;
 }
 #msj{
   flex: 1 1 100%;
-  color: $naranja;
+  color: #fff;
   border-top: solid 1px $gris;
   margin-top: 1rem;
   padding-top: 1rem;

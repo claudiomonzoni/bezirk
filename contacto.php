@@ -4,10 +4,11 @@
 $nombre = $_POST['nombre1'];
 $apellido = $_POST['apellido1'];
 $email = $_POST['email1'];
+$tel = $_POST['tel1'];
 $curso = $_POST['curso1'];
 $edo = $_POST['edo1'];
 $ciudad = $_POST['ciudad1'];
-$desde = "admin@equirentazihua.com";
+$desde = "esau@bezirk.mx ";
 
 $email = filter_var($email, FILTER_SANITIZE_EMAIL); // Sanitizing E-mail.
 // After sanitization Validation is performed
@@ -18,13 +19,14 @@ $subject = "Contacto desde Landing page";
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .=  'Content-Type: text/html; charset=utf-8' . "\r\n";
 //$headers .= 'Content-Type: text/HTML; charset=ISO-8859-1' . "\r\n";
-$headers .= 'From:' . $desde. "\r\n"; // Sender's Email
+$headers .= 'From:' . $email. "\r\n"; // Sender's Email
 $headers .= 'Cc:' . "octabio@gmail.com". "\r\n"; // Carbon copy to Sender
 $template = '<div style="padding:50px; color:#000000;">
 Datos del sitio.<br/>'
 . 'Nombre: ' . $nombre . '<br/>'
 . 'Apellido: ' . $apellido . '<br/>'
 . 'Email: ' . $email . '<br/>'
+. 'Teléfono: ' . $tel . '<br/>'
 . 'Curso de interes: ' . $curso. '<br/>'
 . 'Estado: ' . $edo . '<br/>'
 . 'Ciudad: ' . $ciudad . '<br/>'
@@ -34,7 +36,7 @@ $sendmessage = "<div style=\"background-color:#ffffff; color:white;\">" . $templ
 // Message lines should not exceed 70 characters (PHP rule), so wrap it.
 $sendmessage = wordwrap($sendmessage, 70);
 // Send mail by PHP Mail Function. esau@bezirk.mx 
-mail("claudiomonzoni@hotmail.com", $subject, $sendmessage, $headers);
+mail("esau@bezirk.mx", $subject, $sendmessage, $headers);
 echo "Gracias " . $nombre . ", pronto un asesor se pondra en contacto contigo 😎";
 
 } else {
