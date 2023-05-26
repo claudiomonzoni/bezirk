@@ -10,12 +10,21 @@ body {
   position: relative;
   font-size: clamp(1rem, 1.3vw, 2rem);
   background: rgb(255, 255, 255);
+  @include cel{
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(254, 208, 24, 1) 35%,
+      rgba(254, 208, 24, 1) 62%,
+      rgba(255, 255, 255, 1) 62%
+    );
+  }
   background: linear-gradient(
     0deg,
-    rgba(255, 255, 255, 1) 25%,
-    rgba(254, 208, 24, 1) 25%,
-    rgba(254, 208, 24, 1) 62%,
-    rgba(255, 255, 255, 1) 62%
+    rgba(255, 255, 255, 1) 15%,
+    rgba(254, 208, 24, 1) 15%,
+    rgba(254, 208, 24, 1) 42%,
+    rgba(255, 255, 255, 1) 42%
   );
 }
 section,
@@ -84,6 +93,12 @@ select {
 nav{
   ul{
     display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+    justify-content: space-evenly;
+    li{
+      padding:.6rem 1rem;
+    }
   }
 }
 #social{
