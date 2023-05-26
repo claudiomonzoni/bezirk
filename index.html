@@ -1,52 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bezirk | Regresa a nuestros cursos</title>
+    <title>Bezirk | Curso de alemán</title>
     <link rel="stylesheet" href="style.scss" />
   </head>
   <body>
     <div id="cuerpo">
-      <nav id="nav">
-        <div class="logo">
-          <img src="img/bezirk-logo.svg" alt="" />
-        </div>
-      </nav>
+
+      <img src="img/bezirk-bg.svg" alt="bezirk logo" class="inicio" />
+
+      <section id="imagenes">
+        <img src="img/bezirk-logo.svg" alt="bezirk logo" />
+        <img src="img/bezirk-main.webp" alt="cursos de aleman bezirk logo" />
+      </section>
+
 
       <section>
         <div class="conte">
-          <div id="izq">
-            <h1>Regresa a nuestros cursos</h1>
+          <div>
+            <h1>Registrate aquí</h1>
           </div>
-          <div id="der">
+          <div>
             <div id="formu">
-              <h3>
-                Continua tu sueño de aprender alemán y obten un
-                <b>20% de descuento</b>
-              </h3>
               <input
                 type="text"
                 name="Nombre"
                 id="nombre"
                 required
-                placeholder="Nombre*"
+                placeholder="Nombre"
               />
               <input
-                type="text"
-                name="Apellido"
-                id="apellido"
-                required
-                placeholder="Apellidos*"
+                type="date"
+                name="fecha"
+                id="fecha"
+                placeholder="Fecha de nacimiento"
               />
-              <input
-                type="text"
-                name="Cursos"
-                required
-                id="cursos"
-                placeholder="Curso de mi interés*"
-              />
+
               <select name="Estado" id="edo" placeholder="Estado">
                 <option value="no" selected="selected">Estado</option>
                 <option value="Aguascalientes">Aguascalientes</option>
@@ -82,67 +74,54 @@
                 <option value="Yucatán">Yucatán</option>
                 <option value="Zacatecas">Zacatecas</option>
               </select>
-              <input
-                type="text"
-                name="Ciudad"
-                id="ciudad"
-                placeholder="Ciudad"
-              />
-         
-              <input
-                type="tel"
-                name="tel"
-                id="tel"
-                required
-                placeholder="Teléfono*"
-              />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="Email*"
-              />
-              <a href="#" id="contactoBtn">Quiero que me contacte un asesor</a>
-              <div id="msj">
-              </div>
+              <select name="curso" id="curso">
+                <option value="no" selected="selected">Curso</option>
+                <option value="Curso A">Curso A</option>
+                <option value="Curso B">Curso B</option>
+                <option value="Curso C">Curso C</option>
+              </select>
+              <select name="promos" id="promos">
+                <option value="no" selected="selected">Promociones</option>
+                <option value="Promos A">Promos A</option>
+                <option value="Promos B">Promos B</option>
+                <option value="Promos C">Promos C</option>
+              </select>
+
+              <a href="#" id="contactoBtn">Registrate</a>
+              <div id="msj"></div>
             </div>
           </div>
-
-          <div id="social">
-            <h4>Siguenos</h4>
-      <div id="redes">
-        <a href="https://www.instagram.com/bezirkgdl/" target="_blank"
-        ><img src="img/bezirk-twitter.svg" alt="Bezirk Twitter"
-      /></a>
-      <a href="https://www.facebook.com/BezirkGDL/" target="_blank"
-        ><img src="img/bezirk-facebook.svg" alt="Bezirk Facebook"
-      /></a>
-      </div>
-       
-          <ul>
-            <li>
-              <a href="mailto:info@bezirk.com" target="_blank">
-                info@bezirk.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+013336169721">Tel.(0133) 3616.9721</a>
-            </li>
-            <li>
-              <address>
-                <a
-                  href="https://www.google.com.mx/maps/place/Av.+de+la+Paz+2629,+Arcos+Vallarta,+44130+Guadalajara,+Jal./@20.6720022,-103.3855499,17z/data=!4m13!1m7!3m6!1s0x8428ae72dde3e891:0x714800281e5786bc!2sAv.+de+la+Paz+2629,+Arcos+Vallarta,+44130+Guadalajara,+Jal.!3b1!8m2!3d20.6720022!4d-103.3833612!3m4!1s0x8428ae72dde3e891:0x714800281e5786bc!8m2!3d20.6720022!4d-103.3833612"
-                  target="_blank"
-                >
-                  Av. La Paz 2629, Colonia Arcos Vallarta
-                </a>
-              </address>
-            </li>
-          </ul>
-        </div>
         </div>
       </section>
+
+      <nav>
+        <ul>
+          <li><a href="#">El distrito</a></li>
+          <li><a href="#">Certificaciones</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <section id="social">
+        <div id="redes">
+          <a href="https://www.instagram.com/bezirkgdl/" target="_blank"
+            ><img src="img/bezirk-instagram.svg" alt="Bezirk instagram"
+          /></a>
+          <a href="https://www.facebook.com/BezirkGDL/" target="_blank"
+            ><img src="img/bezirk-facebook.svg" alt="Bezirk Facebook"
+          /></a>
+        </div>
+
+        <ul>
+          <li>
+            <a href="tel:+523336169721">icono tel +52 33 3616 9721</a>
+          </li>
+        </ul>
+      </section>
+
     </div>
     <!-- fin cuerpo -->
   </body>
