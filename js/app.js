@@ -1,28 +1,44 @@
 
 // importo gsap
 import gsap from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 let tl = gsap.timeline({repeat:0})
-tl.from(".logo",
-{
-  x:200,
-  opacity: 0,
-  duration: 1 //1 segundo
-})
-tl.from ("#izq",{
-  x:400,
-  opacity: 0,
-  duration: 1 
-}, "-=.7")
-tl.from ("#der h3, #der input, #der select, #der a",{
+
+tl.from ("img",{
   stagger:0.1,
-  y:100,
+  y:-200,
   opacity: 0,
   duration: 1 
 }, "-=.5")
-tl.from ("#social",{
+
+gsap.from ("input, select, #contactoBtn",{
+  scrollTrigger: {
+    trigger: "input, select",
+  },
   stagger:0.1,
-  x:300,
+  y:-80,
+  opacity: 0,
+  duration: 1 
+}, "=.6")
+
+gsap.from ("nav, ul, li",{
+  scrollTrigger: {
+    trigger: "nav",
+  },
+  stagger:0.1,
+  y:80,
+  opacity: 0,
+  duration: 1 
+}, "-=.8")
+
+gsap.from ("#social",{
+  scrollTrigger: {
+    trigger: "#social",
+  },
+  stagger:0.1,
+  y:80,
   opacity: 0,
   duration: 1 
 }, "-=.5")

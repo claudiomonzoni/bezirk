@@ -10,6 +10,7 @@ body {
   position: relative;
   font-size: clamp(1rem, 1.3vw, 2rem);
   background: rgb(255, 255, 255);
+  overflow-x: hidden;
   @include cel{
     background: linear-gradient(
       0deg,
@@ -103,7 +104,37 @@ nav{
 }
 #social{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:1rem;
+  margin-bottom: 4rem;
+  @include cel{
+    gap: 2rem;
+  }
   img{
-    max-width: 40px;
+    max-width: 30px;
+    @include cel{
+      max-width: 40px;
+    }
+  }
+  .cel{
+    border: solid 2px $naranja;
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    img{
+      max-width: 15px;
+      margin-bottom: -2px;
+    }
+  }
+}
+
+a{
+  text-decoration: none;
+  color: #161616;
+ @extend .anima;
+  &:hover{
+    transform: scale(1.1);
   }
 }

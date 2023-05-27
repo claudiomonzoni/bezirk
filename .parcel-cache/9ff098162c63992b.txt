@@ -1,4 +1,4 @@
-5590
+5591
 86C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\domhandler\lib\node.d.ts132937301410550000 0
 73C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\any-promise133295962876740123 1
 118C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js132812022431860000 0
@@ -47,7 +47,7 @@
 100C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\source-map\lib\source-map-generator.js132807136036670000 0
 86C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\jquery\src\attributes.js133018754829590000 0
 142C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm_bg.wasm133040983979120000 0
-53C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist133296071768994843 1
+53C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist133296899034855690 1
 105C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133040983985110000 0
 67C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\clone133295962877050105 1
 90C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\msgpackr-extract\binding.gyp133040984005430000 0
@@ -64,7 +64,7 @@
 90C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@swc\helpers\lib\_type_of.js133040984031920000 0
 93C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\caniuse-lite\data\regions\LT.js133040984032490000 0
 89C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\utility-types\dist\index.js133040983985230000 0
-59C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\index.html133296071767137712 0
+59C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\index.html133296875876390273 0
 103C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\optimizer-css\lib\CSSOptimizer.js133040984011290000 0
 89C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\packager-js\LICENSE133040984014950000 0
 95C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\jquery\src\data\var\acceptData.js133018754829590000 0
@@ -91,7 +91,7 @@
 67C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\bytes133295962876960133 1
 84C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\svgo\lib\svgo\jsAPI.js133040984027820000 0
 88C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\is-class-hotfix\bower.json132812022363750000 0
-59C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\style.scss133296070627281231 0
+59C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\style.scss133296898324373807 0
 75C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@lezer\common133295962877790138 1
 85C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\buffer-crc32\.npmignore132812022369080000 0
 85C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\jquery\src\manipulation133295962894651065 1
@@ -144,7 +144,7 @@
 82C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\methods\package.json132812022365030000 0
 121C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.1133040983991190000 0
 99C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@jridgewell\trace-mapping\src\sort.ts133040984054890000 0
-65C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\sass\_reset.scss133295992736717866 0
+65C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\sass\_reset.scss133296829624699813 0
 86C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\css-what\lib\es\index.js133040984053940000 0
 66C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\.bin133295962904072541 1
 82C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\jade\lib\compiler.js132812022369110000 0
@@ -457,7 +457,7 @@
 79C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\gsap\package.json133040983978540000 0
 98C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\caniuse-lite\data\features\canvas.js133040984032490000 0
 77C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\watcher133295962900451068 1
-79C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-main.78760fb8.webp133296056705605417 0
+79C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-main.78760fb8.webp133296839392721147 0
 70C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\readdirp133295962881505574 1
 66C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\lmdb133295962880800104 1
 103C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\css-tree\lib\syntax\node\AtrulePrelude.js132812022431890000 0
@@ -664,7 +664,7 @@
 68C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\terser133295962881825611 1
 91C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\sass\types\legacy\render.d.ts133040983979180000 0
 96C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@swc\helpers\src\_create_super.mjs133040984031920000 0
-71C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.a8f04b30.js133296056707099103 0
+71C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.a8f04b30.js133296899034855690 0
 97C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\type-fest\source\tsconfig-json.d.ts132819250938570000 0
 93C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\workers\lib\Profiler.js133040983985110000 0
 104C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\caniuse-lite\data\features\offline-apps.js133040984032490000 0
@@ -2044,7 +2044,7 @@
 92C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\nth-check\lib\esm\compile.d.ts133040984054050000 0
 88C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\msgpackr-extract\README.md133040984005430000 0
 90C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\nth-check\lib\esm\compile.js133040984054050000 0
-58C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\js\app.js133295962694378713 0
+58C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\js\app.js133296899032356248 0
 107C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\core\test\ParcelConfigRequest.test.js133040984009250000 0
 94C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\nth-check\lib\esm\compile.js.map133040984054050000 0
 74C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\mdn-data\api133295962887115594 1
@@ -3505,7 +3505,7 @@
 103C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\core\lib\requests\EntryRequest.js133040984009250000 0
 87C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\css-select\lib\types.d.ts133040984050900000 0
 104C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\connect\lib\public\icons\page_white_go.png132812022364850000 0
-78C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-logo.edb91f83.svg133296056706999101 0
+78C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-logo.edb91f83.svg133296839394311144 0
 85C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\css-select\lib\types.js133040984050900000 0
 88C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@parcel\fs\src\MemoryFS.js133040983982990000 0
 106C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts133040984050900000 0
@@ -5472,7 +5472,7 @@
 100C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@glidejs\glide\tests\unit\unit.test.js132828514590640000 0
 109C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@glidejs\glide\tests\integration\events.test.js132828514590640000 0
 111C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@glidejs\glide\tests\integration\instance.test.js132828514590640000 0
-76C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-bg.63f7235b.svg133296056705275389 0
+76C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-bg.63f7235b.svg133296839396511141 0
 110C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@glidejs\glide\tests\functional\autoplay.test.js132828514590640000 0
 110C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@glidejs\glide\tests\functional\carousel.test.js132828514590640000 0
 108C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\node_modules\@glidejs\glide\tests\functional\slider.test.js132828514590640000 0
@@ -5583,9 +5583,10 @@
 60C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\js\glide.js133295962694378713 0
 60C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\img\tel.svg133295983272872041 0
 78C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-bg-2.02844636.svg133295963429113941 0
-82C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-facebook.32ecf956.svg133296056705265393 0
-83C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-instagram.b45ef3d3.svg133296056707009070 0
-72C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.8353e49f.css133296070629178562 0
-76C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.8353e49f.css.map133296070629178562 0
-75C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.a8f04b30.js.map133296056707169064 0
-64C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.html133296071768984799 0
+82C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-facebook.32ecf956.svg133296839396511141 0
+83C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\bezirk-instagram.b45ef3d3.svg133296839394311144 0
+72C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.8353e49f.css133296898326848170 0
+76C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.8353e49f.css.map133296898326868315 0
+75C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.a8f04b30.js.map133296899034855690 0
+64C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\index.html133296875877940796 0
+70C:\Users\claud\OneDrive\Escritorio\bezirk\bezirk\dist\tel.cf92a554.svg133296839394641158 0
